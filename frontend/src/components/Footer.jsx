@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
         <div>
             <img src={assets.logo} className='mb-5 w-32' alt=''/>
-            <p className='w-full md:w-2/3 text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint magnam cumque ullam, mollitia dicta adipisci sed totam.</p>
+            <p className='w-full md:w-2/3 text-gray-600'>Your one-stop destination for trendy, affordable, and high-quality clothing. Whether you’re looking for everyday casual wear, elegant formal outfits, or the latest seasonal styles, we’ve got you covered!</p>
         </div>
         <div>
             <p className='text-xl font-medium mb-5'>COMPANY</p>
