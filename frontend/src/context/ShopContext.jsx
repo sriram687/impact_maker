@@ -107,6 +107,7 @@ import { createContext, useState } from "react";
 import { products } from "../assets/assets";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+// import {ShopContext} from '../context/ShopContext';
 
 export const ShopContext = createContext();
 
@@ -198,6 +199,7 @@ const ShopContextProvider = (props) => {
     return (
         <ShopContext.Provider value={value}>
             {props.children}
+            
         </ShopContext.Provider>
     );
 };
