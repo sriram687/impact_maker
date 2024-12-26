@@ -47,7 +47,7 @@ export default CartTotal
 //                 <div className="flex justify-between">
 //                     <p>Subtotal:</p>
 //                     <p>{currency} {getCartAmount()}.00</p>
-//                 </div>
+//                 </div>l
 //                 <hr />
 //                 <div className="flex justify-between">
 //                     <p>Shipping Fee:</p>

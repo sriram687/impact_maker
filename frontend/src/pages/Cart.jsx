@@ -84,9 +84,9 @@ import CartTotal from '../components/CartTotal';
 import { useNavigate } from 'react-router-dom';
 
 const Cart = () => {
-  const { products, currency, cartItems, updateQuantity } = useContext(ShopContext);
+  const { products, currency, cartItems, updateQuantity,navigate } = useContext(ShopContext);
   const [cartData, setCartData] = useState([]);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   useEffect(() => {
     console.log("cartItems from context:", cartItems);
@@ -166,7 +166,7 @@ const Cart = () => {
           <div className="w-full text-end">
             <button
               onClick={() => navigate('/place-order')}
-              className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"
+              className="bg-black text-white text-sm my-8 px-8 py-3"
             >
               Place Order
             </button>
@@ -179,3 +179,4 @@ const Cart = () => {
 
 export default Cart;
 
+ 
